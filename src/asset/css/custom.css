@@ -1,0 +1,142 @@
+.topFixedBanner {
+    background-image: url("../image/cover_photo.png");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topBannerOverLay {
+    position: absolute;
+    min-height: 500px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.topContent {
+    margin-top: 10rem;
+}
+
+.topTitle {
+    font-family: 'Montserreat', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 48px;
+
+}
+
+.topSubTitle {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 22px;
+}
+
+.serviceMainTitle {
+    color: #2272E7;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    font-family: 'Montserreat', sans-serif;
+    font-size: 28px;
+    font-weight: 670;
+}
+
+.serviceName {
+    margin-top: 1rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 670;
+}
+
+.serviceDescription {
+    color: black;
+    margin-top: 1rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 670;
+}
+
+.serviceCard {
+    margin: 5px 5px 5px 5px;
+    height: 22rem;
+    padding: 60px 30px 60px 30px;
+    box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0.2);
+}
+
+.serviceCard:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 115, 230, 0.2);
+}
+
+.navTitle {
+    font-family: 'Montserreat', sans-serif;
+    color: #ffffff !important;
+    font-weight: 700;
+    font-size: 24px;
+
+}
+
+.navTitleScroll {
+    font-family: 'Montserreat', sans-serif;
+    color: #2272E7 !important;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.navBackground {
+    /**
+       for transaction animation
+     */
+    -webkit-transition: background-color400ms linear;
+    -moz-transition: background-color 400ms linear;
+    -o-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+
+    /**
+    now set the background color and all browser support
+     */
+    background-color: rgba(00, 00, 00, 0.0) !important;
+}
+
+.navBackgroundScroll {
+    /**
+    for transaction animation and all browser support
+  */
+    -webkit-transition: background-color400ms linear;
+    -moz-transition: background-color 400ms linear;
+    -o-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+
+    /**
+    now set the background color
+     */
+    background-color: white !important;
+}
+
+/**
+run time navItem color
+ */
+.navItem {
+    font-size: 16px;
+    text-decoration: none !important;
+    font-family: 'Montserreat', sans-serif;
+    font-weight: 670;
+    color: #ffffff !important;
+}
+
+/**
+after scroll navItem color
+ */
+.navItemScroll {
+    font-size: 16px;
+    text-decoration: none !important;
+    font-family: 'Montserreat', sans-serif;
+    font-weight: 670;
+    color: #000000 !important;
+}
+.desc{
+    font-weight:670;
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
