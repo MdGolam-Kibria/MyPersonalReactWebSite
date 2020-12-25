@@ -1,7 +1,7 @@
 import React, {Component, Fragment} from 'react';
 import {Col, Container, Row} from "react-bootstrap";
-import androidLogo from '../../asset/image/android.jpg'
-import webLogo from '../../asset/image/web.jpg'
+import androidLogo from '../../asset/image/android.png'
+import webLogo from '../../asset/image/web.png'
 import iosLogo from '../../asset/image/ios.png'
 
 

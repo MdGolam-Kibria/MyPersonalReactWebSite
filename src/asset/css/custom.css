@@ -140,3 +140,59 @@ after scroll navItem color
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
 }
+
+.summarySection{
+    margin-top: 4rem;
+}
+.summaryBanner {
+    background-image: url("../image/cover_photo.png");
+    min-height: 350px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.summaryBannerOverlay {
+    position: absolute;
+    min-height: 350px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+.countNumber{
+    color: white;
+    font-family: 'Montserreat', sans-serif;
+    font-size: 48px;
+    font-weight: 6000;
+}
+.countTitle{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+.countSection{
+    margin-top: 16%;
+}
+.cardTitle{
+    font-weight: 600;
+    font-size: 22px;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+.cardSubTitle{
+    font-weight: 400;
+    font-size: 14px;
+    color: black;
+    text-align: justify;
+    font-family: 'Montserreat', sans-serif;
+}
+.iconBullet{
+    color: blue;
+    font-size: 16px;
+}
+.workCard{
+    margin-top: 14%;
+    padding: 10px 10px 10px 10px;
+    border-radius: 2px;
+}
