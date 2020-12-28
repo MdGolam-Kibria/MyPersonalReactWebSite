@@ -7,6 +7,9 @@ import {faCheckCircle} from '@fortawesome/free-solid-svg-icons';
 import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
 
+/**
+ * here above visibility-sensor for show time action
+ */
 class Summary extends Component {
     render() {
         return (

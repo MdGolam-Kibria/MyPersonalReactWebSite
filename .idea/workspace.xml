@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="781f5a42-05a1-4456-93c0-ba758c9ccb40" name="Default Changelist" comment="complete chart portion">
-      <change afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/image/android.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/image/web.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/componants/summary/Summary.js" afterDir="false" />
+    <list default="true" id="781f5a42-05a1-4456-93c0-ba758c9ccb40" name="Default Changelist" comment="complete countup">
+      <change afterPath="$PROJECT_DIR$/src/componants/clientReview/ClientReview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/componants/courses/courses.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/componants/recentProjects/RecentProjects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/componants/video/video.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/asset/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/asset/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/asset/image/android.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/asset/image/ios.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/asset/image/ios.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/asset/image/web.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/componants/services/services.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/componants/services/services.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/componants/summary/Summary.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/componants/summary/Summary.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +56,8 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -94,7 +97,11 @@
       <workItem from="1608567796888" duration="9501000" />
       <workItem from="1608916858875" duration="1202000" />
       <workItem from="1608918162828" duration="124000" />
-      <workItem from="1608918874759" duration="8069000" />
+      <workItem from="1608918874759" duration="8183000" />
+      <workItem from="1609003439994" duration="1190000" />
+      <workItem from="1609091809320" duration="1004000" />
+      <workItem from="1609169822663" duration="1461000" />
+      <workItem from="1609171347255" duration="11357000" />
     </task>
     <task id="LOCAL-00001" summary="complete service portion">
       <created>1608316857468</created>
@@ -110,7 +117,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608576587500</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="complete countup">
+      <created>1608927059219</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608927059219</updated>
+    </task>
+    <task id="LOCAL-00004" summary="complete countup">
+      <created>1608927068636</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608927068636</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,7 +153,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="complete service portion" />
     <MESSAGE value="complete chart portion" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete chart portion" />
+    <MESSAGE value="complete countup" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete countup" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -144,5 +166,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
