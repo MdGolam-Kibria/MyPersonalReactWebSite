@@ -8,7 +8,7 @@ class RecentProjects extends Component {
                 <Container className="text-center">
                     <h1 className="serviceMainTitle text-center">RECENT PROJECTS</h1>
                     <Row>
-                        <Col sm={12} md={6} lg={4}>
+                        <Col sm={12} md={6} lg={4} className="p-2">
                             <Card className="projectCard">
                                 <Card.Img variant="top"
                                           src="https://scontent.fdac9-1.fna.fbcdn.net/v/t1.0-9/116795153_971643263256982_2321855891114966127_n.jpg?_nc_cat=108&ccb=2&_nc_sid=09cbfe&_nc_eui2=AeFiOrnZTHaee5kTECO33SBbCS7FaqAYUTwJLsVqoBhRPFG8Itf1LmN0TVK7eVKpCil-38jkqP3r-2vCMnkexMS0&_nc_ohc=GzV70gpSKewAX-y4pNW&_nc_ht=scontent.fdac9-1.fna&oh=042978ed6f3dfd7b04a30373c992ebe0&oe=60105080"/>

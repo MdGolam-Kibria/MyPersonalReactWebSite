@@ -15,7 +15,7 @@
 }
 
 .topContent {
-    margin-top: 10rem;
+    margin-top: 12rem;
 }
 
 .topTitle {
@@ -50,7 +50,7 @@
 }
 
 .serviceDescription {
-    color: black;
+    color: #2B2B2B;
     margin-top: 1rem;
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
@@ -132,12 +132,12 @@ after scroll navItem color
     text-decoration: none !important;
     font-family: 'Montserreat', sans-serif;
     font-weight: 670;
-    color: #000000 !important;
+    color: #2B2B2B !important;
 }
 
 .desc {
     font-weight: 670;
-    color: #000000;
+    color: #2B2B2B;
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
 }
@@ -190,7 +190,7 @@ after scroll navItem color
 .cardSubTitle {
     font-weight: 400;
     font-size: 14px;
-    color: black;
+    color: #2B2B2B;
     text-align: justify;
     font-family: 'Montserreat', sans-serif;
 }
@@ -281,7 +281,7 @@ after scroll navItem color
 }
 
 .videoDescription {
-    color: black;
+    color: #2B2B2B;
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
     font-weight: 400
@@ -294,4 +294,55 @@ after scroll navItem color
     height: 100px;
     border: 1px solid blue;
     border-radius: 50%;
+}
+
+.footerSection {
+    box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0.2);
+    margin-top: 5rem;
+}
+
+.socialLink {
+    text-decoration: none;
+    color: blue;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.socialLink:hover {
+    text-decoration: none;
+    color: #2B2B2B;
+}
+
+.footerLink {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    color: #2B2B2B;
+}
+
+.footerLink:hover {
+    text-decoration: none;
+    color: blue;
+}
+
+.copyRightSection {
+    padding: 20px 20px 20px 20px;
+    background-color: blue;
+}
+
+.copyRightLink {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Montserreat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.copyRightLink:hover {
+    text-decoration: none;
+    color: #2B2B2B;
+    cursor: context-menu;
 }

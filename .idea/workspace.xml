@@ -4,19 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="781f5a42-05a1-4456-93c0-ba758c9ccb40" name="Default Changelist" comment="complete countup">
-      <change afterPath="$PROJECT_DIR$/src/componants/clientReview/ClientReview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/componants/courses/courses.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/componants/recentProjects/RecentProjects.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/componants/video/video.js" afterDir="false" />
+    <list default="true" id="781f5a42-05a1-4456-93c0-ba758c9ccb40" name="Default Changelist" comment="complete until carusal">
+      <change afterPath="$PROJECT_DIR$/src/componants/footer/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/HomePage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/asset/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/asset/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/componants/summary/Summary.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/componants/summary/Summary.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/componants/courses/courses.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/componants/courses/courses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/componants/recentProjects/RecentProjects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/componants/recentProjects/RecentProjects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/componants/topNavigation/TopNavigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/componants/topNavigation/TopNavigation.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +100,9 @@
       <workItem from="1609003439994" duration="1190000" />
       <workItem from="1609091809320" duration="1004000" />
       <workItem from="1609169822663" duration="1461000" />
-      <workItem from="1609171347255" duration="11357000" />
+      <workItem from="1609171347255" duration="11627000" />
+      <workItem from="1609262155339" duration="6897000" />
+      <workItem from="1609269177411" duration="567000" />
     </task>
     <task id="LOCAL-00001" summary="complete service portion">
       <created>1608316857468</created>
@@ -131,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608927068636</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="complete until carusal">
+      <created>1609182920092</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1609182920092</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,14 +162,15 @@
     <MESSAGE value="complete service portion" />
     <MESSAGE value="complete chart portion" />
     <MESSAGE value="complete countup" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete countup" />
+    <MESSAGE value="complete until carusal" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete until carusal" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/componants/topNavigation/TopNavigation.js</url>
-          <line>20</line>
+          <line>21</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

@@ -12,6 +12,7 @@ class TopNavigation extends Component {
         this.state = {
             navBarTitle: 'navTitle',//initialize css class as a state object
             navBarLogo: [whiteLogo],//for nav logo
+            navVariant:'dark',
             nabBarBackground: 'navBackground',
             navItemColor: 'navItem'
         }
@@ -20,6 +21,7 @@ class TopNavigation extends Component {
     onScroll = () => {
         if (window.scrollY > 100) {//means if i scroll down means above of 100% of screen then...
             this.setState({
+                navVariant: 'light',
                 navBarTitle: 'navTitleScroll',
                 navBarLogo: [blueLogo],
                 nabBarBackground: 'navBackgroundScroll',
@@ -27,6 +29,7 @@ class TopNavigation extends Component {
             })
         } else if (window.scrollY < 100) {//means if i scroll up means less of 100% of screen then...
             this.setState({
+                navVariant: 'dark',
                 navBarTitle: 'navTitle',
                 navBarLogo: [whiteLogo],
                 nabBarBackground: 'navBackground',
@@ -43,8 +46,8 @@ class TopNavigation extends Component {
     render() {
         return (
             <Fragment>
-                <Navbar className={this.state.nabBarBackground/**for set navBar background from state*/} fixed="top"
-                        collapseOnSelect expand="lg" variant="dark">
+                <Navbar variant={this.state.navVariant} className={this.state.nabBarBackground/**for set navBar background from state*/} fixed="top"
+                        collapseOnSelect expand="lg">
                     <Navbar.Brand className={this.state.navBarTitle/** call from state*/} href="#home">
                         <img src={this.state.navBarLogo}/>
                         <span> </span>Golam Kibria</Navbar.Brand>
