@@ -64,7 +64,8 @@ class ClientReview extends Component {
                                         <img className="circleImage"
                                              src="https://scontent.fdac9-1.fna.fbcdn.net/v/t1.0-9/125865310_3427710827336321_4379794445442604911_o.jpg?_nc_cat=111&ccb=2&_nc_sid=8bfeb9&_nc_eui2=AeH0bMfhmHEYVqq5HRN0U7OTdy_IrvNBzbt3L8iu80HNu-D6zby7_Tc_cyRdc-ehidF6Rb_VPLtBvQVN51PNp8SP&_nc_ohc=lwJoVJmmbSsAX-vQU0X&_nc_ht=scontent.fdac9-1.fna&oh=03db9641f96775afdff9dbf0c7704445&oe=600E9A05"/>
                                         <h1 className="serviceName">Web Develepment</h1>
-                                        <p className="serviceDescription">First i analysis the requirement of project. According to the requirement i
+                                        <p className="serviceDescription">First i analysis the requirement of project.
+                                            According to the requirement i
                                             make a proper technical analysis,
                                             then i build a software architecture.
                                             According to the planning i start coding. Testing is also going on with
@@ -78,7 +79,8 @@ class ClientReview extends Component {
                                         <img className="circleImage"
                                              src="https://scontent.fdac9-1.fna.fbcdn.net/v/t1.0-9/125865310_3427710827336321_4379794445442604911_o.jpg?_nc_cat=111&ccb=2&_nc_sid=8bfeb9&_nc_eui2=AeH0bMfhmHEYVqq5HRN0U7OTdy_IrvNBzbt3L8iu80HNu-D6zby7_Tc_cyRdc-ehidF6Rb_VPLtBvQVN51PNp8SP&_nc_ohc=lwJoVJmmbSsAX-vQU0X&_nc_ht=scontent.fdac9-1.fna&oh=03db9641f96775afdff9dbf0c7704445&oe=600E9A05"/>
                                         <h1 className="serviceName">Android Develepment</h1>
-                                        <p className="serviceDescription">First i analysis the requirement of project. According to the requirement i
+                                        <p className="serviceDescription">First i analysis the requirement of project.
+                                            According to the requirement i
                                             make a proper technical analysis,
                                             then i build a software architecture.
                                             According to the planning i start coding. Testing is also going on with
@@ -92,7 +94,8 @@ class ClientReview extends Component {
                                         <img className="circleImage"
                                              src="https://scontent.fdac9-1.fna.fbcdn.net/v/t1.0-9/125865310_3427710827336321_4379794445442604911_o.jpg?_nc_cat=111&ccb=2&_nc_sid=8bfeb9&_nc_eui2=AeH0bMfhmHEYVqq5HRN0U7OTdy_IrvNBzbt3L8iu80HNu-D6zby7_Tc_cyRdc-ehidF6Rb_VPLtBvQVN51PNp8SP&_nc_ohc=lwJoVJmmbSsAX-vQU0X&_nc_ht=scontent.fdac9-1.fna&oh=03db9641f96775afdff9dbf0c7704445&oe=600E9A05"/>
                                         <h1 className="serviceName">Ios Develepment</h1>
-                                        <p className="serviceDescription">First i analysis the requirement of project. According to the requirement i
+                                        <p className="serviceDescription">First i analysis the requirement of project.
+                                            According to the requirement i
                                             make a proper technical analysis,
                                             then i build a software architecture.
                                             According to the planning i start coding. Testing is also going on with

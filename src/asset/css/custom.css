@@ -346,3 +346,32 @@ after scroll navItem color
     color: #2B2B2B;
     cursor: context-menu;
 }
+
+
+/**/
+
+.topFixedPage {
+    background-image: url("../image/cover_photo.png");
+    min-height: 280px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topPageOverLay {
+    position: absolute;
+    min-height: 280px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.topPageContent {
+    margin-top: 8rem;
+}
+.pageTitle {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 28px;
+}
