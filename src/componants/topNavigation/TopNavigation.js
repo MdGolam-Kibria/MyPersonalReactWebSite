@@ -5,16 +5,18 @@ import blueLogo from '../../asset/image/navlogoscroll.svg'
 
 import "../../asset/css/custom.css"
 import "../../asset/css/bootstrap.min.css"
+import {NavLink} from "react-router-dom";
 
 class TopNavigation extends Component {
     constructor(props) {
-        super(props);
+        super();
         this.state = {
             navBarTitle: 'navTitle',//initialize css class as a state object
             navBarLogo: [whiteLogo],//for nav logo
-            navVariant:'dark',
+            navVariant: 'dark',
             nabBarBackground: 'navBackground',
-            navItemColor: 'navItem'
+            navItemColor: 'navItem',
+            pageTitle: props.title //received props from others component
         }
     }
 
@@ -46,7 +48,11 @@ class TopNavigation extends Component {
     render() {
         return (
             <Fragment>
-                <Navbar variant={this.state.navVariant} className={this.state.nabBarBackground/**for set navBar background from state*/} fixed="top"
+                {/*// for set page title get an attribute called page title*/}
+                <title>{this.props.pageTitle}</title>
+
+                <Navbar variant={this.state.navVariant}
+                        className={this.state.nabBarBackground/**for set navBar background from state*/} fixed="top"
                         collapseOnSelect expand="lg">
                     <Navbar.Brand className={this.state.navBarTitle/** call from state*/} href="#home">
                         <img src={this.state.navBarLogo}/>
@@ -56,12 +62,35 @@ class TopNavigation extends Component {
                         <Nav className="mr-auto">
                         </Nav>
                         <Nav>
-                            <Nav.Link className={this.state.navItemColor} href="#deets">HOME</Nav.Link>
-                            <Nav.Link className={this.state.navItemColor} href="#deets">SERVICES</Nav.Link>
-                            <Nav.Link className={this.state.navItemColor} href="#deets">COURSES</Nav.Link>
-                            <Nav.Link className={this.state.navItemColor} href="#deets">PORTFOLIO</Nav.Link>
-                            <Nav.Link className={this.state.navItemColor} href="#deets">CONTACT</Nav.Link>
-                            <Nav.Link className={this.state.navItemColor} href="#deets">ABOUT</Nav.Link>
+
+                            <Nav.Link>
+                                {/*Here  exact activeStyle={{color: '#00a8ee'}}  means
+
+                                 after click a navlink exact navlink change color*/}
+                                 <NavLink exact activeStyle={{color: '#00a8ee'}} className={this.state.navItemColor}
+                                         to="/">HOME</NavLink>
+                            </Nav.Link>
+                            <Nav.Link>
+                                <NavLink exact activeStyle={{color: '#00a8ee'}} className={this.state.navItemColor}
+                                         to="/service">SERVICES</NavLink>
+                            </Nav.Link>
+                            <Nav.Link>
+                                <NavLink exact activeStyle={{color: '#00a8ee'}} className={this.state.navItemColor}
+                                         to="/course">COURSES</NavLink>
+                            </Nav.Link>
+                            <Nav.Link>
+                                <NavLink exact activeStyle={{color: '#00a8ee'}} className={this.state.navItemColor}
+                                         to="/protfolio">PORTFOLIO</NavLink>
+                            </Nav.Link>
+                            <Nav.Link>
+                                <NavLink exact activeStyle={{color: '#00a8ee'}} className={this.state.navItemColor}
+                                         to="/contact">CONTACT</NavLink>
+                            </Nav.Link>
+                            <Nav.Link>
+                                <NavLink exact activeStyle={{color: '#00a8ee'}} className={this.state.navItemColor}
+                                         to="/about">ABOUT</NavLink>
+                            </Nav.Link>
+
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>

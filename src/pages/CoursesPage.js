@@ -9,7 +9,7 @@ class CoursesPage extends Component {
     render() {
         return (
             <Fragment>
-                <TopNavigation/>
+                <TopNavigation title="Courses"/>
                 {/*send page title by props called ''pagetitle'*/}
                 <PageTop pagetitle="All Courses"/>
                 <AllCourses/>

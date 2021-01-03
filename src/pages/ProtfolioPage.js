@@ -8,7 +8,7 @@ class ProtfolioPage extends Component {
     render() {
         return (
             <Fragment>
-                <TopNavigation/>
+                <TopNavigation title="Portfolio"/>
                 <PageTop pagetitle="Portfolio"/>
                 <AllProjects/>
                 <Footer/>

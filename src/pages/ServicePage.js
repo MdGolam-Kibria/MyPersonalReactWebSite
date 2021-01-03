@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, {Component, Fragment} from 'react';
 import TopNavigation from '../componants/topNavigation/TopNavigation'
 import PageTop from '../componants/pageTop/PageTop'
 import Footer from '../componants/footer/Footer'
@@ -9,12 +9,12 @@ class ServicePage extends Component {
     render() {
         return (
             <Fragment>
-                <TopNavigation/>
+                <TopNavigation title="Service"/>
                 <PageTop pagetitle="Service"/>
                 <Services/>
                 <ContactSection/>
                 <Footer/>
-</Fragment>
+            </Fragment>
         );
     }
 }
