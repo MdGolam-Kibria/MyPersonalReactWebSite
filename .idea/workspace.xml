@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="781f5a42-05a1-4456-93c0-ba758c9ccb40" name="Default Changelist" comment="complete until Protfolio">
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/asset/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/asset/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/componants/topNavigation/TopNavigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/componants/topNavigation/TopNavigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/AboutPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AboutPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ApplicationRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ApplicationRoute.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ContactPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ContactPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/CoursesPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/CoursesPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ProtfolioPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProtfolioPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ServicePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ServicePage.js" afterDir="false" />
-    </list>
+    <list default="true" id="781f5a42-05a1-4456-93c0-ba758c9ccb40" name="Default Changelist" comment="complete home page" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,7 +106,7 @@
       <workItem from="1609519765869" duration="3279000" />
       <workItem from="1609603147409" duration="1110000" />
       <workItem from="1609604466489" duration="5269000" />
-      <workItem from="1609688601894" duration="4304000" />
+      <workItem from="1609688601894" duration="4949000" />
     </task>
     <task id="LOCAL-00001" summary="complete service portion">
       <created>1608316857468</created>
@@ -171,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609511508537</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="complete home page">
+      <created>1609695632434</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1609695632435</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,7 +190,8 @@
     <MESSAGE value="complete until carusal" />
     <MESSAGE value="complete Home page" />
     <MESSAGE value="complete until Protfolio" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete until Protfolio" />
+    <MESSAGE value="complete home page" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete home page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
