@@ -1,13 +1,14 @@
 import React from "react";
-import { BrowserRouter } from 'react-router-dom'
+import {BrowserRouter} from 'react-router-dom'
 import ApplicationRoute from './pages/ApplicationRoute'
-  function App() {
+
+function App() {
     return (
 
-            <BrowserRouter>
+        <BrowserRouter>
             <ApplicationRoute/>
-            </BrowserRouter>
-        
+        </BrowserRouter>
+
     );
 }
 

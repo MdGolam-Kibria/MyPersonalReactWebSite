@@ -369,14 +369,27 @@ after scroll navItem color
 .topPageContent {
     margin-top: 8rem;
 }
+
 .pageTitle {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     color: white;
     font-size: 28px;
 }
-.form-control:focus{
+
+.form-control:focus {
     border-radius: 2px !important;
     border-color: blue !important;
     box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0.2) !important;
 }
+
+/*For route time animation in Top navigation when route active */
+
+.switch-wrapper {
+    position: relative !important;
+}
+/*
+
+.switch-wrapper > div {
+    position: absolute;
+}*/

@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="781f5a42-05a1-4456-93c0-ba758c9ccb40" name="Default Changelist" comment="complete home page" />
+    <list default="true" id="781f5a42-05a1-4456-93c0-ba758c9ccb40" name="Default Changelist" comment="complete home page">
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/asset/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/asset/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ApplicationRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ApplicationRoute.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,7 +114,8 @@
       <workItem from="1609519765869" duration="3279000" />
       <workItem from="1609603147409" duration="1110000" />
       <workItem from="1609604466489" duration="5269000" />
-      <workItem from="1609688601894" duration="4949000" />
+      <workItem from="1609688601894" duration="5290000" />
+      <workItem from="1609760198347" duration="3556000" />
     </task>
     <task id="LOCAL-00001" summary="complete service portion">
       <created>1608316857468</created>
@@ -164,7 +173,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609695632435</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="complete home page">
+      <created>1609698130259</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1609698130259</updated>
+    </task>
+    <task id="LOCAL-00010" summary="complete home page">
+      <created>1609698200763</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1609698200763</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
